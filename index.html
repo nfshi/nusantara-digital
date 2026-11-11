@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nusantara Digital – Solusi Teknologi untuk Bisnis Anda</title>
+<script>try{if(sessionStorage.getItem("nd_auth")!=="1")document.documentElement.classList.add("locked")}catch(e){document.documentElement.classList.add("locked")}</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="login" role="dialog" aria-labelledby="lgTitle">
+<form class="login-card" id="loginForm" autocomplete="on">
+<a class="logo" href="#"><i>LO</i>LONTE ONLINE</a>
+<h2 id="lgTitle">Selamat Datang 👋</h2>
+<p>Silakan login terlebih dahulu untuk masuk ke website.</p>
+<label for="lgUser">Username</label>
+<input id="lgUser" name="username" type="text" autocomplete="username" placeholder="Masukkan username" required>
+<label for="lgPass">Password</label>
+<div class="pw"><input id="lgPass" name="password" type="password" autocomplete="current-password" placeholder="Masukkan password" required><button type="button" id="pwToggle" aria-label="Tampilkan password">👁</button></div>
+<div class="login-err" id="lgErr" role="alert"></div>
+<button class="btn" type="submit">Login</button>
+<div class="login-hint">Demo: username <b>admin</b> · password <b>nusantara123</b></div>
+</form>
+</div>
+
+<header>
+<div class="wrap nav">
+<a href="#beranda" class="logo"><i>LO</i>NUSANTARA DIGITAL</a>
+<nav id="menu"><ul>
+<li><a href="#beranda">Beranda</a></li><li><a href="#tentang">Tentang</a></li><li><a href="#visimisi">Visi &amp; Misi</a></li><li><a href="#layanan">Layanan</a></li>
+<li><a href="#portofolio">Portofolio</a></li><li><a href="#tim">Tim</a></li><li><a href="#kontak">Kontak</a></li>
+</ul></nav>
+<div class="tools">
+<button class="icon-btn" id="themeBtn" aria-label="Ganti tema">🌓</button>
+<a href="#kontak" class="btn sm">Konsultasi</a>
+<button class="btn ghost sm" id="logoutBtn" type="button">Logout</button>
+<button class="icon-btn" id="menuBtn" aria-label="Menu">☰</button>
+</div>
+</div>
+</header>
+
+<main>
+<section class="hero" id="beranda">
+<div class="wrap">
+<div>
+<span class="tag">🚀 Mitra transformasi digital sejak 2015</span>
+<h1>Wujudkan Bisnis Anda dengan <span>Teknologi Terbaik</span></h1>
+<p>Kami membangun website, aplikasi mobile, dan solusi IoT yang membantu perusahaan tumbuh lebih cepat, efisien, dan siap bersaing di era digital.</p>
+<div class="cta"><a href="#kontak" class="btn">Mulai Proyek</a><a href="#layanan" class="btn ghost">Lihat Layanan</a></div>
+</div>
+<div class="panel">
+<b>Performa Proyek Klien</b><br><small>Rata-rata peningkatan setelah go-live</small>
+<div class="bar"><b style="width:86%"></b></div><small>Efisiensi operasional +86%</small>
+<div class="bar"><b style="width:72%"></b></div><small>Konversi penjualan online +72%</small>
+<div class="bar"><b style="width:94%"></b></div><small>Kepuasan klien 94%</small>
+</div>
+</div>
+</section>
+
+<section class="about" id="tentang">
+<div class="wrap">
+<div>
+<h2 style="font-size:clamp(1.6rem,3.5vw,2.3rem);margin:0 0 12px">Tentang Kami</h2>
+<p style="color:var(--muted)">Nusantara Digital adalah perusahaan teknologi informasi yang berfokus pada pengembangan perangkat lunak berkualitas tinggi. Misi kami sederhana: membuat teknologi mudah diakses dan benar-benar bermanfaat bagi bisnis di seluruh Indonesia.</p>
+<ul><li>Tim bersertifikasi dan berpengalaman</li><li>Proses transparan dengan laporan progres mingguan</li><li>Garansi dan dukungan purna jual 12 bulan</li><li>Keamanan data sesuai standar industri</li></ul>
+</div>
+<div class="stats">
+<div class="stat"><b data-n="150">0</b><span>Proyek Selesai</span></div>
+<div class="stat"><b data-n="80">0</b><span>Klien Aktif</span></div>
+<div class="stat"><b data-n="25">0</b><span>Anggota Tim</span></div>
+<div class="stat"><b data-n="11">0</b><span>Tahun Pengalaman</span></div>
+</div>
+</div>
+</section>
+
+<section id="visimisi" class="vm">
+<div class="wrap">
+<div class="head"><h2>Visi &amp; Misi</h2><p>Arah dan komitmen kami dalam membangun solusi teknologi.</p></div>
+<div class="grid g2">
+<div class="card"><div class="ico">🎯</div><h3>Visi</h3><p>Menjadi perusahaan teknologi terdepan di Indonesia yang menghadirkan inovasi digital berdampak nyata bagi bisnis dan masyarakat.</p></div>
+<div class="card"><div class="ico">🧭</div><h3>Misi</h3>
+<ul><li>Menyediakan solusi digital berkualitas tinggi dan tepat guna.</li><li>Mengembangkan talenta teknologi yang kreatif dan profesional.</li><li>Membangun hubungan jangka panjang yang jujur dengan klien.</li><li>Terus berinovasi mengikuti perkembangan teknologi.</li></ul></div>
+</div>
+</div>
+</section>
+
+<section id="layanan">
+<div class="wrap">
+<div class="head"><h2>Layanan Kami</h2><p>Solusi menyeluruh dari ide hingga produk siap pakai.</p></div>
+<div class="grid g3">
+<div class="card"><div class="ico">🌐</div><h3>Pengembangan Website</h3><p>Company profile, toko online, hingga sistem web kustom yang cepat, responsif, dan ramah SEO.</p></div>
+<div class="card"><div class="ico">📱</div><h3>Aplikasi Mobile</h3><p>Aplikasi Android dan iOS lintas platform dengan Flutter, nyaman digunakan dan mudah dikembangkan.</p></div>
+<div class="card"><div class="ico">📡</div><h3>Solusi IoT</h3><p>Monitoring dan otomasi berbasis sensor dan mikrokontroler untuk industri, pertanian, dan gedung pintar.</p></div>
+<div class="card"><div class="ico">🎨</div><h3>Desain UI/UX</h3><p>Antarmuka modern yang berpusat pada pengguna, dari riset, wireframe, hingga prototipe interaktif.</p></div>
+<div class="card"><div class="ico">☁️</div><h3>Cloud dan DevOps</h3><p>Migrasi, hosting, dan otomasi deployment agar sistem Anda andal, aman, dan mudah di-scale.</p></div>
+<div class="card"><div class="ico">🛠️</div><h3>Konsultasi dan Maintenance</h3><p>Audit sistem, perencanaan teknologi, serta perawatan berkala supaya aplikasi tetap prima.</p></div>
+</div>
+</div>
+</section>
+
+<section class="about" id="portofolio">
+<div class="wrap" style="display:block">
+<div class="head"><h2>Portofolio Pilihan</h2><p>Beberapa proyek yang kami banggakan.</p></div>
+<div class="grid g3 work">
+<div class="card"><div class="thumb t1">🛒</div><span class="pill">E-Commerce</span><h3>Toko Online Batik Nusa</h3><p>Platform penjualan dengan pembayaran terintegrasi, penjualan naik 3x dalam 6 bulan.</p></div>
+<div class="card"><div class="thumb t2">🌱</div><span class="pill">IoT</span><h3>Smart Farming Monitor</h3><p>Sensor kelembapan dan penyiraman otomatis yang menghemat air hingga 40%.</p></div>
+<div class="card"><div class="thumb t3">🏥</div><span class="pill">Mobile App</span><h3>Aplikasi Reservasi Klinik</h3><p>Booking dokter dan pengingat jadwal, dipakai lebih dari 20.000 pasien.</p></div>
+</div>
+</div>
+</section>
+
+<section id="tim">
+<div class="wrap">
+<div class="head"><h2>Tim Kami</h2><p>Orang-orang di balik setiap solusi.</p></div>
+<div class="grid g4">
+<div class="card team"><div class="avatar">AP</div><b>NUR FATAH SIDIK</b><br><small>CEO dan Founder</small></div>
+<div class="card team"><div class="avatar">SR</div><b>ASEP SAEPURROHAMAN</b><br><small>Head of Engineering</small></div>
+<div class="card team"><div class="avatar">BW</div><b>AKBAR NOVRIJAL</b><br><small>Lead UI/UX Designer</small></div>
+<div class="card team"><div class="avatar">DL</div><b>M.RASYA</b><br><small>Project Manager</small></div>
+</div>
+<div class="head" style="margin-top:72px"><h2>Kata Klien</h2></div>
+<div class="grid g3">
+<div class="card quote"><p>“Timnya profesional dan responsif. Website kami selesai tepat waktu dan hasilnya melebihi harapan.”</p><b>Rina Kusuma</b><small>Direktur, Batik Nusa</small></div>
+<div class="card quote"><p>“Sistem IoT dari Nusantara Digital sangat membantu efisiensi panen kami.”</p><b>Hendra Saputra</b><small>Pemilik, Tani Makmur</small></div>
+<div class="card quote"><p>“Aplikasinya stabil dan mudah dipakai pasien. Dukungan setelah rilis juga luar biasa.”</p><b>dr. Maya Sari</b><small>Klinik Sehat Sentosa</small></div>
+</div>
+</div>
+</section>
+
+<section class="about contact" id="kontak">
+<div class="wrap">
+<div class="info">
+<h2 style="font-size:clamp(1.6rem,3.5vw,2.3rem);margin:0 0 12px">Hubungi Kami</h2>
+<p>Ceritakan kebutuhan Anda. Kami akan membalas dalam 1×24 jam kerja.</p>
+<p><b>📍 Alamat</b>Jl. Merdeka No. 123, Jakarta Pusat 10110</p>
+<p><b>📞 Telepon</b>+62 21 5555 1234</p>
+<p><b>✉️ Email</b>halo@nusantaradigital.co.id</p>
+<p><b>🕘 Jam Kerja</b>Senin – Jumat, 09.00 – 17.00 WIB</p>
+</div>
+<form id="form" class="card">
+<input type="text" name="nama" placeholder="Nama lengkap" required>
+<input type="email" name="email" placeholder="Alamat email" required>
+<select name="layanan"><option>Pengembangan Website</option><option>Aplikasi Mobile</option><option>Solusi IoT</option><option>Desain UI/UX</option><option>Lainnya</option></select>
+<textarea name="pesan" rows="5" placeholder="Ceritakan kebutuhan proyek Anda" required></textarea>
+<button class="btn" type="submit">Kirim Pesan</button>
+<div class="ok" id="ok">✅ Terima kasih! Pesan Anda sudah kami terima.</div>
+</form>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="cols">
+<div><div class="logo"><i>N</i>Nusantara Digital</div><p>Mitra teknologi terpercaya untuk pertumbuhan bisnis Anda.</p></div>
+<div><h4>Menu</h4><a href="#tentang">Tentang</a><a href="#layanan">Layanan</a><a href="#portofolio">Portofolio</a><a href="#kontak">Kontak</a></div>
+<div><h4>Ikuti Kami</h4><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">YouTube</a></div>
+</div>
+<div class="copy">© <span id="yr">2026</span> Nusantara Digital. Seluruh hak cipta dilindungi.</div>
+</div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
